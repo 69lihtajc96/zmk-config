@@ -11,6 +11,6 @@ manifest:
       import: app/west.yml
     - name: nice-view-gif  # Новая запись
       remote: 69lihtajc96  # Новая запись
-      revision: sister  # Новая запись
+      revision: main  # Новая запись
   self:
     path: config
