@@ -2,15 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: 69lihtajc96  # Новая запись
-      url-base: https://github.com/69lihtajc96  # Новая запись
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-gif  # Новая запись
-      remote: 69lihtajc96  # Новая запись
-      revision: main  # Новая запись
   self:
     path: config
