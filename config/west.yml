@@ -10,7 +10,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: nice-view-gif  # Новая запись
-      remote: danielsodium  # Новая запись
-      revision: sister  # Новая запись
+      remote: 69lihtajc96  # Новая запись
+      revision: main  # Новая запись
   self:
     path: config
