@@ -14,14 +14,14 @@
 
         YouTube {
             bindings = <&Start_Youtube>;
-            key-positions = <1 3 7 9 1 3>;
+            key-positions = <7 9 4 2>;
             layers = <0>;
             timeout-ms = <2>;
         };
 
         Social {
             bindings = <&Start_Social>;
-            key-positions = <13 15 19 21>;
+            key-positions = <19 21 14 16>;
         };
     };
 
@@ -35,17 +35,24 @@
                 <&macro_tap>,
                 <&kp NUMBER_1 &kp F>,
                 <&macro_release>,
+                <&macro_press>,
+                <&kp LCTRL>,
                 <&macro_tap>,
-                <&kp Y &kp T>,
+                <&kp L>,
+                <&macro_release>,
                 <&macro_press>,
                 <&kp LS(LEFT_ALT)>,
                 <&macro_tap>,
                 <&kp ENTER>,
                 <&macro_release>,
                 <&macro_tap>,
+                <&kp Y &kp T>,
+                <&macro_tap>,
                 <&kp ENTER>;
 
             label = "START_ALL";
+            tap-ms = <5>;
+            wait-ms = <15>;
         };
 
         Start_Social: Start_Social {
@@ -57,13 +64,13 @@
                 <&macro_tap>,
                 <&kp NUMBER_2 &kp F>,
                 <&macro_release>,
-                <&macro_tap>,
-                <&kp D &kp S>,
                 <&macro_press>,
                 <&kp LS(LEFT_ALT)>,
                 <&macro_tap>,
                 <&kp ENTER>,
                 <&macro_release>,
+                <&macro_tap>,
+                <&kp D &kp S>,
                 <&macro_tap>,
                 <&kp ENTER>,
                 <&macro_press>,
@@ -82,6 +89,8 @@
                 <&kp LS(E) &kp L &kp E &kp M &kp E &kp N &kp T &kp ENTER>;
 
             label = "START_SOCIAL";
+            wait-ms = <15>;
+            tap-ms = <5>;
         };
     };
 
